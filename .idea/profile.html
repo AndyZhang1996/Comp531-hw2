@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Xurui(Andy) Zhang">
+    <title>Profile Page</title>
+    <link rel="stylesheet" type="text/css"
+          href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <!--Add javascript file here-->
+    <script type="text/javascript" src="profile.js"></script>
+
+
+</head>
+<body onload="renderPassword() ">
+<div class="page-header">
+    <div class="row">
+        <div class="col-2">
+            <h1>Profile Page</h1>
+        </div>
+        <div class="col-5">
+            <a href="main.html" class="btn btn-primary">Main</a>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="center">
+        <div class="row">
+            <p><font size="5">
+                <pre>Display Name: </pre>
+            </font></p>
+            <input type="text" id="displayNameInput">
+            <p><font size="5">
+                <pre id="displayName">andy</pre>
+            </font></p>
+            &nbsp;
+            &nbsp;
+            <span id="nameMsg"></span>
+        </div>
+
+        <div class="row">
+            <p><font size="5">
+                <pre>Email Address:</pre>
+            </font></p>
+            <input type="text" id="emailAddressInput">
+            <p><font size="5">
+                <pre id="emailAddress">andyzhang@rice.edu</pre>
+            </font></p>
+            &nbsp;
+            &nbsp;
+            <span id="emailMsg"></span>
+        </div>
+
+        <div class="row">
+            <p><font size="5">
+                <pre>Phone Number: </pre>
+            </font></p>
+            <input type="text" id="phoneNumberInput">
+            <p><font size="5">
+                <pre id="phoneNumber">858-260-8580</pre>
+            </font></p>
+            &nbsp;
+            &nbsp;
+            <span id="phoneMsg"></span>
+        </div>
+
+        <div class="row">
+            <p><font size="5">
+                <pre>     Zipcode: </pre>
+            </font></p>
+            <input type="text" id="zipInput">
+            <p><font size="5">
+                <pre id="zip">77005</pre>
+            </font></p>
+            &nbsp;
+            &nbsp;
+            <span id="zipMsg"></span>
+        </div>
+
+        <div class="row">
+            <p><font size="5">
+                <pre>     Password: </pre>
+            </font></p>
+            <input type="password" id="passwordInput" placeholder="123">
+            &nbsp;
+            &nbsp;
+            <span id="passwordMsg"></span>
+        </div>
+
+        <div class="row">
+            <p><font size="5">
+                <pre>Confirm Password: </pre>
+            </font></p>
+            <input type="password" id="conFrmInput">
+            &nbsp;
+            &nbsp;
+            <span id="conFrmMsg"></span>
+        </div>
+
+
+        <div class="row">
+            <button type="button" id="submit" value="submit" onclick="nameFunc(); emailFunc(); phoneFunc(); zipFunc();
+            passwordValidation()">Update
+            </button>
+        </div>
+    </div>
+</div>
+
+
+</body>
+</html>

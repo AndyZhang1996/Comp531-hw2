@@ -1,0 +1,63 @@
+/*.embed-responsive .card-img-top {*/
+/*    object-fit: cover;*/
+/*}*/
+
+.page-header{
+    background-color: #3b5998;
+    width: auto;
+    color: white;
+}
+
+
+.container{
+    background-color: white;
+    text-align: center;
+}
+
+.center {
+    margin: auto;
+    width: 100%;
+    padding: 10px;
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body{
+    background-color: #9fcdff;
+}
+
+button {
+    background-color: #c6c8ca;
+    border: none;
+    color: black;
+    padding: 10px 35px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+
+}
+
+input[type="text"]
+{
+    font-size: 24px;
+    height: 30px;
+}
+
+input[type="password"]
+{
+    font-size: 24px;
+    height: 30px;
+}
+
+span{
+    margin-right: 100px;
+}
+
+pre{
+    font-size: 24px;
+}
